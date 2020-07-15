@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <Button
+       android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/loginBackground"
+        android:paddingBottom="20dp"
+        android:text="Categories"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Choose a category"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageview"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/scienceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Science Quiz"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/category">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/scienceSubText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Improve on your science skills"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scienceText">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/scienceLine"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scienceSubText">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/sportText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Sport Quiz"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scienceLine">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/sportSubText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Improve on your sport skills"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sportText">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/sportLine"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sportSubText">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/carText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Car Quiz"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sportLine">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/carSubText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Improve on your car skills"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carText">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/carLine"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/carSubText">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/logicText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Logic Quiz"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carLine">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/logicSubText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Improve on your logic skills"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logicText">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/logicLine"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logicSubText">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/movieText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Movie Quiz"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logicLine">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/movieSubText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Improve on your movie skills"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movieText">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/movieLine"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/movieSubText">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/historyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="History Quiz"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movieLine">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/historySubText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Improve on your history skills"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/historyText">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/historyLine"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/movieSubText">
+
+    </ImageView>
+
+
+    <Button
+        android:id="@+id/scienceButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/white"
+        android:text="@string/start"
+        android:background="@drawable/circle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/scienceText"
+        app:layout_constraintTop_toTopOf="@id/scienceText">
+
+    </Button>
+
+    <Button
+        android:id="@+id/sportButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:text="@string/start"
+        android:background="@drawable/circle"
+        app:layout_constraintEnd_toEndOf="@+id/scienceButton"
+        app:layout_constraintStart_toStartOf="@+id/scienceButton"
+        app:layout_constraintTop_toBottomOf="@+id/scienceLine">
+
+    </Button>
+
+    <Button
+        android:id="@+id/carButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:text="@string/start"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/circle"
+        app:layout_constraintEnd_toEndOf="@+id/sportButton"
+        app:layout_constraintStart_toStartOf="@+id/sportButton"
+        app:layout_constraintTop_toBottomOf="@+id/sportLine">
+
+    </Button>
+
+    <Button
+        android:id="@+id/logicButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:text="@string/start"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/circle"
+        app:layout_constraintEnd_toEndOf="@+id/carButton"
+        app:layout_constraintStart_toStartOf="@+id/carButton"
+        app:layout_constraintTop_toBottomOf="@+id/carLine">
+
+    </Button>
+
+    <Button
+        android:id="@+id/movieButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:text="@string/start"
+        android:background="@drawable/circle"
+        app:layout_constraintEnd_toEndOf="@+id/logicButton"
+        app:layout_constraintStart_toStartOf="@+id/logicButton"
+        app:layout_constraintTop_toBottomOf="@+id/logicLine">
+
+    </Button>
+
+    <Button
+        android:id="@+id/historyeButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:text="@string/start"
+        android:background="@drawable/circle"
+        app:layout_constraintEnd_toEndOf="@+id/movieButton"
+        app:layout_constraintStart_toStartOf="@+id/movieButton"
+        app:layout_constraintTop_toBottomOf="@+id/movieLine">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

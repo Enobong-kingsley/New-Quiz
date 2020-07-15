@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#21308C</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="loginBackground">#21329E</color>
+    <color name="white">#94FFFFFF</color>
+    <color name="realWhite">#FFFFFF</color>
+    <color name="blue">#1CA4D2</color>
+    <color name="yellow">#E09B16</color>
+    <color name="ashPink">#7E6E81</color>
+    <color name="ashGreen">#6AB371</color>
+    <color name="ashPurple">#8384B3</color>
+    <color name="ashRed">#B37178</color>
+</resources>
